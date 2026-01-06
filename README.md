@@ -1,15 +1,11 @@
 # forexfactory
 
-Unofficial API client for [Forex Factory](https://www.forexfactory.com) economic calendar. Scrapes and parses calendar events with proper UTC timestamp conversion for consistent timezone handling.
+Unofficial API client for [Forex Factory](https://www.forexfactory.com) economic calendar.
 
 ## Features
 
 - Fetch economic calendar events
 - Get event details (description, history, specs)
-- UTC timestamp conversion for all events
-- Format timestamps to any timezone
-- TypeScript support with full type definitions
-- Zero authentication required
 
 ## Installation
 
