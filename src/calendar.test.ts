@@ -18,7 +18,7 @@ describe("ForexFactory", () => {
   test("should fetch calendar with UTC timestamps", async () => {
     const calendar = await ff.fetchCalendarEvents();
 
-    expect(calendar.serverTimezone).toBeDefined();
+    expect(calendar.tz).toBeDefined();
     expect(calendar.data).toBeArray();
     expect(calendar.data.length).toBeGreaterThan(0);
 
@@ -42,7 +42,7 @@ describe("ForexFactory", () => {
         const date = new Date(event.timestamp);
         expect(date.getTime()).toBe(event.timestamp);
 
-        console.log("Server Timezone:", calendar.serverTimezone);
+        console.log("Server Timezone:", calendar.tz);
         console.log("Event ID:", event.eventId);
         console.log("Event:", event.title);
         console.log("Original Time:", event.time);
