@@ -4,6 +4,33 @@
   "types": "src/index.ts",
   "type": "module",
   "private": true,
+  "author": {
+    "email": "viandwi24@pme.me",
+    "name": "viandwi24",
+    "url": "https://viandwi24.com"
+  },
+  "keywords": [
+    "forex",
+    "forexfactory",
+    "forexfactory-api",
+    "forexfactory-scraper",
+    "forexfactory-data",
+    "forexfactory-events",
+    "scraper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viandwi24/forexfactory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viandwi24/forexfactory/issues"
+  },
+  "files": [
+    "src",
+    "package.json",
+    "README.md",
+    "tsconfig.json"
+  ],
   "scripts": {
     "dev": "bun run --watch src/example.ts"
   },

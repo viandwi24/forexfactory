@@ -1,9 +1,5 @@
 import * as cheerio from "cheerio";
 
-// ============================================================================
-// Types & Interfaces
-// ============================================================================
-
 /**
  * Configuration options for ForexFactory client
  */
